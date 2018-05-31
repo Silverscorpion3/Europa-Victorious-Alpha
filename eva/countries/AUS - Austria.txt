@@ -18,15 +18,15 @@ set_politics = {
 
 	parties = {
 		monarchist = { 
-			popularity = 70
-		}
-
-		rightwing_demorcat = {
 			popularity = 10
 		}
 
+		rightwing_demorcat = {
+			popularity = 35
+		}
+
 		democratic = {
-			popularity = 5
+			popularity = 40
 		}
 		
 		fascism = {
@@ -34,11 +34,11 @@ set_politics = {
 		}
 
 		neutrality = {
-			popularity = 5
+			popularity = 15
 		}
 	}
 	
-	ruling_party = monarchist
+	ruling_party = democratic
 	last_election = "1930.11.9"
 	election_frequency = 48
 	elections_allowed = no
